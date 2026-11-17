@@ -6,11 +6,11 @@
 		"mac": "2.2081",
 		"ios": "2.2081"
 	},
-	"id": "yourname.auto-deco",
-	"name": "Auto Deco",
+	"id": "kosharymoh.auto-nightmare",
+	"name": "Auto Nightmare",
 	"version": "v1.0.0",
-	"developer": "YourName",
-	"description": "One-click layout decoration with presets like Slaughterhouse and Acheron.",
+	"developer": "KosharyMoh",
+	"description": "One-click full-level decoration with a Slaughterhouse-inspired dark red and black preset.",
 	"tags": ["editor", "utility", "customization"],
 	"settings": {
 		"ui-title": {
@@ -20,7 +20,7 @@
 		"show-editor-button": {
 			"type": "bool",
 			"name": "Show Editor Button",
-			"description": "Show a floating <cg>Deco</c> button in the level editor. You can always open Auto Deco from the editor <cy>pause menu</c> too.",
+			"description": "Show a floating Deco button in the level editor. You can always open Auto Nightmare from the editor pause menu too.",
 			"default": true
 		},
 		"button-position": {
@@ -62,8 +62,8 @@
 		},
 		"open-popup-keybind": {
 			"type": "keybind",
-			"name": "Open Auto Deco",
-			"description": "Opens the Auto Deco window while you are in the level editor.",
+			"name": "Open Auto Nightmare",
+			"description": "Opens the Auto Nightmare window while you are in the level editor.",
 			"default": {
 				"win": "Ctrl+Shift+D",
 				"mac": "Cmd+Shift+D"
@@ -94,7 +94,7 @@
 		"base-channel": {
 			"type": "int",
 			"name": "First Color Channel",
-			"description": "Auto Deco uses 6 color channels starting here (default 981-986). Change it if your level already uses those channels.",
+			"description": "Auto Nightmare uses 6 color channels starting here (default 981-986). Change it if your level already uses those channels.",
 			"default": 981,
 			"min": 1,
 			"max": 990,
@@ -110,13 +110,13 @@
 		"recolor-layout": {
 			"type": "bool",
 			"name": "Recolor Layout Blocks",
-			"description": "With <cg>Theme Colors</c> on, also sets the built-in <cy>Obj</c> channel (1004) so default blocks match the preset.",
+			"description": "With Theme Colors on, also sets the built-in Obj channel (1004) so default blocks match the preset.",
 			"default": true
 		},
 		"deco-editor-layer": {
 			"type": "int",
 			"name": "Deco Editor Layer",
-			"description": "Put all generated decoration on this editor layer so you can hide or lock it easily. <cy>0</c> = don't change the layer.",
+			"description": "Put all generated decoration on this editor layer so you can hide or lock it easily. 0 = don't change the layer.",
 			"default": 0,
 			"min": 0,
 			"max": 99,
