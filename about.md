@@ -1,12 +1,11 @@
-# Auto Deco
+# Auto Nightmare
 
-Decorate your layout in one click.
+Decorate your Geometry Dash layout in one click.
 
-Open the **Auto Deco** window in the level editor (floating **Deco** button, the editor
-pause menu, or `Ctrl+Shift+D` / `Cmd+Shift+D`), pick a preset and press **Decorate**.
+Open the **Auto Nightmare** window in the level editor (floating **Deco** button, the editor pause menu, or `Ctrl+Shift+D` / `Cmd+Shift+D`), pick a preset and press **Decorate**.
 
 ## Presets
-- **Slaughterhouse** - blood-red & black, thorns, chains, skulls, big gears
+- **Slaughterhouse** - blood-red and black, thorns, chains, skulls, big gears
 - **Acheron** - charcoal grey + red, thorns, rods, pulses, slow gears
 - **Bloodbath** - classic red / black / grey
 - **Nine Circles** - molten orange glow orbs and neon outlines
@@ -17,15 +16,14 @@ pause menu, or `Ctrl+Shift+D` / `Cmd+Shift+D`), pick a preset and press **Decora
 - **Minimal Clean** - outlines and glow only
 - **Chaos** - random palette and mix every time
 
-Presets are *inspired by* the general look of those levels - they are not copies.
+Presets are inspired by the general look of those levels, not copies.
 
 ## What it does
-- Outlines and edge glow on every exposed block face
-- Thorns / spikes / rods growing from tops, chains and icicles hanging from undersides
-- Optional wall decor, ground-line decor, props (gears, skulls, orbs)
-- Background shapes scattered around the layout
-- Color triggers that apply the preset palette (BG, ground, line, blocks + 6 deco channels)
-- Density, seed, per-feature toggles, "selected blocks only"
-- **Undo Last** / **Remove All** and automatic replace-on-redecorate (this editor session)
+- Outlines and edge glow on exposed block faces
+- Thorns, spikes and rods on top surfaces; chains and icicles underneath
+- Optional wall decor, ground-line decor, props and background shapes
+- Palette color triggers
+- Density, seed and per-feature controls
+- **Undo Last** / **Remove All** and replace-on-redecorate
 
-Decoration is made of non-solid, non-hazard objects only, so it never changes gameplay.
+Generated decoration uses non-solid, non-hazard objects so it does not change gameplay.
